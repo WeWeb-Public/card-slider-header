@@ -1,11 +1,13 @@
 module.exports = [
     {
-        name: 'slider',
+        name: 'card_slider_header',
+        category: 'features',
         storeName: {
-            en_GB: "Slider section"
+            en: "Slider card section team",
+            fr: "Slider card section team",
         },
         storeDesc: {
-            en_GB: "Slider section with swipe features"
+            en: "Slider section with swipe features and a row with header"
         }
     }
 ]
