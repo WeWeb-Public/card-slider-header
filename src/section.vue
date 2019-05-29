@@ -138,6 +138,7 @@
 const VueTouch = require('vue-touch')
 
 Vue.use(VueTouch, { name: 'v-touch' })
+import { getNewFeature } from "./defaultFeature"
 
 export default {
     name: "__COMPONENT_NAME__",
@@ -330,25 +331,34 @@ export default {
             try {
                 const up = (where == 'after') ? parseInt(1) : 0;
                 const index = _index + up
-                const newCard = {
-                    background: wwLib.wwObject.getDefault({ type: 'ww-color', data: { color: 'white' } }),
-                    contents: [],
-                    teamRow: []
-                }
+                const newCard = getNewFeature()
+
                 this.section.data.features.splice(index, 0, newCard);
                 this.sectionCtrl.update(this.section);
             } catch (err) {
                 wwLib.wwLog.error('ERROR : ', error);
             }
         },
+        removeFeature(index) {
+            try {
+                this.section.data.features.splice(index, 1);
+                if (!this.section.data.features.length) {
+                    this.addFeature(0, 'after');
+                }
+                this.sectionCtrl.update(this.section);
+                this.prevSlide()
+            } catch (error) {
+                wwLib.wwLog.error('ERROR : ', error);
+
+            }
+        },
+
         /* add picture */
 
         addElement(list, _index, where) {
-            console.log('where:', where)
             try {
                 const up = (where == 'after') ? parseInt(1) : 0;
                 const index = _index + up
-                console.log('index:', index)
                 let newCopie = JSON.parse(JSON.stringify(list[0]))
 
                 wwLib.wwUtils.changeUniqueIds(newCopie)
@@ -358,34 +368,17 @@ export default {
                 wwLib.wwLog.error('ERROR : ', error);
             }
         },
+
         removeElement(list, index) {
             try {
                 if (list.length > 1) {
                     list.splice(index, 1);
                     this.sectionCtrl.update(this.section);
                 }
-
             } catch (error) {
                 wwLib.wwLog.error('ERROR : ', error);
-
             }
         },
-
-
-        removeFeature(index) {
-            try {
-                this.section.data.features.splice(index, 1);
-                if (!this.section.data.features.length) {
-                    this.addFeature(0, 'after');
-                }
-                this.sectionCtrl.update(this.section);
-                this.$forceUpdate()
-            } catch (error) {
-                wwLib.wwLog.error('ERROR : ', error);
-
-            }
-        },
-
 
         async openOptions() {
             try {
