@@ -1,52 +1,53 @@
 {
-  "name": "card_slider_header",
-  "type": "section",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/WeWeb-Public/card-slider-header.git"
-  },
-  "version": "0.0.1",
-  "private": true,
-  "scripts": {
-    "build": "weweb-build",
-    "serve": "weweb-serve",
-    "upload": "weweb-upload"
-  },
-  "dependencies": {
-    "vue": "^2.5.16",
-    "vue-touch": "^2.0.0-beta.4"
-  },
-  "devDependencies": {
-    "@vue/cli-plugin-babel": "^3.0.5",
-    "@vue/cli-plugin-eslint": "^3.0.5",
-    "@vue/cli-service": "^3.0.5",
-    "autoprefixer": "^9.3.1",
-    "axios": "^0.18.0",
-    "babel-core": "^6.26.3",
-    "babel-loader": "^7.1.4",
-    "babel-plugin-transform-async-to-generator": "^6.24.1",
-    "babel-plugin-transform-es2015-modules-commonjs": "^6.26.2",
-    "babel-preset-es2015-node6": "^0.4.0",
-    "babel-preset-stage-2": "^6.24.1",
-    "cache-loader": "^1.2.5",
-    "css-loader": "^1.0.1",
-    "node-sass": "^4.10.0",
-    "postcss": "^7.0.6",
-    "sass-loader": "^7.1.0",
-    "shelljs": "^0.8.3",
-    "string-replace-loader": "^2.1.1",
-    "url-loader": "^1.1.2",
-    "vue-loader": "^15.2.2",
-    "vue-style-loader": "^4.1.0",
-    "vue-template-compiler": "^2.5.16",
-    "webpack": "^4.31.0",
-    "webpack-cli": "^3.3.2",
-    "webpack-dev-server": "^3.4.0",
-    "weweb-client": "^1.0.33"
-  },
-  "browserslist": [
-    "> 1%",
-    "last 2 versions",
-    "not ie <= 8"
-  ]
+    "name": "card_slider_header",
+    "type": "section",
+    "wewebPublic": true,
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/WeWeb-Public/card-slider-header.git"
+    },
+    "version": "0.0.1",
+    "private": true,
+    "scripts": {
+        "build": "weweb-build",
+        "serve": "weweb-serve",
+        "upload": "weweb-upload"
+    },
+    "dependencies": {
+        "vue": "^2.5.16",
+        "vue-touch": "^2.0.0-beta.4"
+    },
+    "devDependencies": {
+        "@vue/cli-plugin-babel": "^3.0.5",
+        "@vue/cli-plugin-eslint": "^3.0.5",
+        "@vue/cli-service": "^3.0.5",
+        "autoprefixer": "^9.3.1",
+        "axios": "^0.18.0",
+        "babel-core": "^6.26.3",
+        "babel-loader": "^7.1.4",
+        "babel-plugin-transform-async-to-generator": "^6.24.1",
+        "babel-plugin-transform-es2015-modules-commonjs": "^6.26.2",
+        "babel-preset-es2015-node6": "^0.4.0",
+        "babel-preset-stage-2": "^6.24.1",
+        "cache-loader": "^1.2.5",
+        "css-loader": "^1.0.1",
+        "node-sass": "^4.10.0",
+        "postcss": "^7.0.6",
+        "sass-loader": "^7.1.0",
+        "shelljs": "^0.8.3",
+        "string-replace-loader": "^2.1.1",
+        "url-loader": "^1.1.2",
+        "vue-loader": "^15.2.2",
+        "vue-style-loader": "^4.1.0",
+        "vue-template-compiler": "^2.5.16",
+        "webpack": "^4.31.0",
+        "webpack-cli": "^3.3.2",
+        "webpack-dev-server": "^3.4.0",
+        "weweb-client": "^1.0.33"
+    },
+    "browserslist": [
+        "> 1%",
+        "last 2 versions",
+        "not ie <= 8"
+    ]
 }
