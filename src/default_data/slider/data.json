@@ -1,7 +1,7 @@
 {
-    "dotColor": "#9013FE",
+    "dotColor": "#90CAF9",
     "bg": {
-        "uniqueId": 88461050,
+        "uniqueId": 13543904377,
         "wwVersion": 3,
         "content": {
             "type": "ww-color",
@@ -50,7 +50,7 @@
     "features": [
         {
             "background": {
-                "uniqueId": 12661074949,
+                "uniqueId": 9472080299,
                 "wwVersion": 3,
                 "content": {
                     "type": "ww-color",
@@ -98,12 +98,12 @@
                 "anim": {}
             },
             "banner": {
-                "uniqueId": 12193544998,
+                "uniqueId": 14047521918,
                 "wwVersion": 3,
                 "content": {
                     "type": "ww-image",
                     "data": {
-                        "url": "https://wewebapp.s3.eu-west-3.amazonaws.com/designs/7/sections/nNt67i28FXj5nqnsaIxZeMToT8mCxfzV.jpg",
+                        "url": "https://wewebapp.s3.eu-west-3.amazonaws.com/designs/7/sections/JcOgNd0XThGZNOpudphOJdAdummfWnQ1.png",
                         "alt": "",
                         "position": {
                             "x": 0,
@@ -115,7 +115,7 @@
                             "width": "100%",
                             "height": "100%"
                         },
-                        "zoom": 1.3940594059405942,
+                        "zoom": 1.051916545366327,
                         "style": {
                             "borderRadius": 0,
                             "borderWidth": 0,
@@ -153,7 +153,7 @@
                             50,
                             50
                         ],
-                        "crop": "72px100p@14px0p"
+                        "crop": "95px100p@2px0p"
                     }
                 },
                 "link": {
@@ -183,13 +183,13 @@
             },
             "contents": [
                 {
-                    "uniqueId": 4749010445,
+                    "uniqueId": 14680074046,
                     "wwVersion": 3,
                     "content": {
                         "type": "ww-text",
                         "data": {
                             "text": {
-                                "fr": "<font face=\"Open Sans, sans-serif\"><b>Aude @Itelios</b></font>"
+                                "fr": "<font face=\"Open Sans, sans-serif\"><b>Inventore veritatis</b></font>"
                             },
                             "tag": "div",
                             "align": "",
@@ -226,13 +226,13 @@
                     "anim": {}
                 },
                 {
-                    "uniqueId": 1983314519,
+                    "uniqueId": 1145181934,
                     "wwVersion": 3,
                     "content": {
                         "type": "ww-text",
                         "data": {
                             "text": {
-                                "fr": "<font face=\"Open Sans, sans-serif\" color=\"#4a4a4a\">175 collaborateurs Paris</font>"
+                                "fr": "<font face=\"Open Sans, sans-serif\" color=\"#4a4a4a\">Inventore veritatis et quasi </font>"
                             },
                             "tag": "div",
                             "align": "",
@@ -269,13 +269,13 @@
                     "anim": {}
                 },
                 {
-                    "uniqueId": 4933781839,
+                    "uniqueId": 13054696663,
                     "wwVersion": 3,
                     "content": {
                         "type": "ww-text",
                         "data": {
                             "text": {
-                                "fr": "<font face=\"Open Sans, sans-serif\" color=\"#4a4a4a\">Conseil en systèmes et logiciels informatiques</font>"
+                                "fr": "<font face=\"Open Sans, sans-serif\" color=\"#4a4a4a\"> Veritatis et quasi architecto beatae vitae dicta sunt explicabo</font>"
                             },
                             "tag": "div",
                             "align": "",
@@ -312,13 +312,13 @@
                     "anim": {}
                 },
                 {
-                    "uniqueId": 4609644600,
+                    "uniqueId": 931344757,
                     "wwVersion": 3,
                     "content": {
                         "type": "ww-text",
                         "data": {
                             "text": {
-                                "fr": "<font face=\"Open Sans, sans-serif\"><b><span style=\"font-size:0.6rem\">&lt;&lt;&nbsp;</span></b>Préparez vos actions grâce à des activités automatisées et pré-créées (random lunch, sport, jeux...). Ouvrez l'esprit de vos collaborateurs grâce à notre programme.&nbsp;<span style=\"font-size:0.6rem\"><b>&gt;&gt;</b></span></font>"
+                                "fr": "<font face=\"Open Sans, sans-serif\">Totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo&nbsp;</font><br>"
                             },
                             "tag": "div",
                             "align": "",
@@ -368,7 +368,7 @@
                     "content": {
                         "data": {
                             "text": {
-                                "uniqueId": 1404594620,
+                                "uniqueId": 15428481953,
                                 "new": false,
                                 "anim": {},
                                 "data": {},
@@ -386,7 +386,7 @@
                                         "size": "",
                                         "text": {
                                             "en": "<font face=\"Open Sans, sans-serif\" color=\"#9013fe\"><b>Lire Le cas client</b></font>",
-                                            "fr": "<font face=\"Open Sans, sans-serif\" color=\"#9013fe\"><b>Lire le cas client</b></font>"
+                                            "fr": "<font face=\"Open Sans, sans-serif\" color=\"#00a3c7\"><b>Lire le cas client</b></font>"
                                         },
                                         "align": "",
                                         "color": "",
@@ -404,7 +404,7 @@
                                 "gradient": {},
                                 "boxShadow": {
                                     "b": "5",
-                                    "c": "#9013FE",
+                                    "c": "#90CAF9",
                                     "s": "0",
                                     "x": 0,
                                     "y": 0
@@ -429,13 +429,13 @@
                             "bottom": 30
                         }
                     },
-                    "uniqueId": 10979752089,
+                    "uniqueId": 11367201988,
                     "wwVersion": 3
                 }
             ],
             "teamRow": [
                 {
-                    "uniqueId": 14482836194,
+                    "uniqueId": 5407540361,
                     "wwVersion": 3,
                     "content": {
                         "type": "ww-image",
@@ -520,7 +520,7 @@
                     "anim": {}
                 },
                 {
-                    "uniqueId": 2218943451,
+                    "uniqueId": 7105903903,
                     "wwVersion": 3,
                     "content": {
                         "type": "ww-image",
@@ -608,7 +608,7 @@
         },
         {
             "background": {
-                "uniqueId": 8792012589,
+                "uniqueId": 4507314790,
                 "wwVersion": 3,
                 "content": {
                     "type": "ww-color",
@@ -656,12 +656,12 @@
                 "anim": {}
             },
             "banner": {
-                "uniqueId": 4297937694,
+                "uniqueId": 12496143036,
                 "wwVersion": 3,
                 "content": {
                     "type": "ww-image",
                     "data": {
-                        "url": "https://wewebapp.s3.eu-west-3.amazonaws.com/designs/7/sections/nNt67i28FXj5nqnsaIxZeMToT8mCxfzV.jpg",
+                        "url": "https://wewebapp.s3.eu-west-3.amazonaws.com/designs/7/sections/JcOgNd0XThGZNOpudphOJdAdummfWnQ1.png",
                         "alt": "",
                         "position": {
                             "x": 0,
@@ -673,7 +673,7 @@
                             "width": "100%",
                             "height": "100%"
                         },
-                        "zoom": 1.3940594059405942,
+                        "zoom": 1.051916545366327,
                         "style": {
                             "borderRadius": 0,
                             "borderWidth": 0,
@@ -711,7 +711,7 @@
                             50,
                             50
                         ],
-                        "crop": "72px100p@14px0p"
+                        "crop": "95px100p@2px0p"
                     }
                 },
                 "link": {
@@ -741,13 +741,13 @@
             },
             "contents": [
                 {
-                    "uniqueId": 6590863036,
+                    "uniqueId": 6908058229,
                     "wwVersion": 3,
                     "content": {
                         "type": "ww-text",
                         "data": {
                             "text": {
-                                "fr": "<font face=\"Open Sans, sans-serif\"><b>Aude @Itelios</b></font>"
+                                "fr": "<font face=\"Open Sans, sans-serif\"><b>Inventore veritatis</b></font>"
                             },
                             "tag": "div",
                             "align": "",
@@ -784,13 +784,13 @@
                     "anim": {}
                 },
                 {
-                    "uniqueId": 6667030110,
+                    "uniqueId": 6684544352,
                     "wwVersion": 3,
                     "content": {
                         "type": "ww-text",
                         "data": {
                             "text": {
-                                "fr": "<font face=\"Open Sans, sans-serif\" color=\"#4a4a4a\">175 collaborateurs Paris</font>"
+                                "fr": "<font face=\"Open Sans, sans-serif\" color=\"#4a4a4a\">Inventore veritatis et quasi </font>"
                             },
                             "tag": "div",
                             "align": "",
@@ -827,13 +827,13 @@
                     "anim": {}
                 },
                 {
-                    "uniqueId": 7430922060,
+                    "uniqueId": 7531412606,
                     "wwVersion": 3,
                     "content": {
                         "type": "ww-text",
                         "data": {
                             "text": {
-                                "fr": "<font face=\"Open Sans, sans-serif\" color=\"#4a4a4a\">Conseil en systèmes et logiciels informatiques</font>"
+                                "fr": "<font face=\"Open Sans, sans-serif\" color=\"#4a4a4a\"> Veritatis et quasi architecto beatae vitae dicta sunt explicabo</font>"
                             },
                             "tag": "div",
                             "align": "",
@@ -870,13 +870,13 @@
                     "anim": {}
                 },
                 {
-                    "uniqueId": 13396862758,
+                    "uniqueId": 10571499612,
                     "wwVersion": 3,
                     "content": {
                         "type": "ww-text",
                         "data": {
                             "text": {
-                                "fr": "<font face=\"Open Sans, sans-serif\"><b><span style=\"font-size:0.6rem\">&lt;&lt;&nbsp;</span></b>Préparez vos actions grâce à des activités automatisées et pré-créées (random lunch, sport, jeux...). Ouvrez l'esprit de vos collaborateurs grâce à notre programme.&nbsp;<span style=\"font-size:0.6rem\"><b>&gt;&gt;</b></span></font>"
+                                "fr": "<font face=\"Open Sans, sans-serif\">Totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo&nbsp;</font><br>"
                             },
                             "tag": "div",
                             "align": "",
@@ -926,7 +926,7 @@
                     "content": {
                         "data": {
                             "text": {
-                                "uniqueId": 14266514965,
+                                "uniqueId": 5664127870,
                                 "new": false,
                                 "anim": {},
                                 "data": {},
@@ -944,7 +944,7 @@
                                         "size": "",
                                         "text": {
                                             "en": "<font face=\"Open Sans, sans-serif\" color=\"#9013fe\"><b>Lire Le cas client</b></font>",
-                                            "fr": "<font face=\"Open Sans, sans-serif\" color=\"#9013fe\"><b>Lire le cas client</b></font>"
+                                            "fr": "<font face=\"Open Sans, sans-serif\" color=\"#00a3c7\"><b>Lire le cas client</b></font>"
                                         },
                                         "align": "",
                                         "color": "",
@@ -962,7 +962,7 @@
                                 "gradient": {},
                                 "boxShadow": {
                                     "b": "5",
-                                    "c": "#9013FE",
+                                    "c": "#90CAF9",
                                     "s": "0",
                                     "x": 0,
                                     "y": 0
@@ -987,13 +987,13 @@
                             "bottom": 30
                         }
                     },
-                    "uniqueId": 4650065805,
+                    "uniqueId": 11104470063,
                     "wwVersion": 3
                 }
             ],
             "teamRow": [
                 {
-                    "uniqueId": 10853272449,
+                    "uniqueId": 11884366851,
                     "wwVersion": 3,
                     "content": {
                         "type": "ww-image",
@@ -1078,7 +1078,7 @@
                     "anim": {}
                 },
                 {
-                    "uniqueId": 11165313213,
+                    "uniqueId": 281671017,
                     "wwVersion": 3,
                     "content": {
                         "type": "ww-image",
@@ -1166,7 +1166,7 @@
         },
         {
             "background": {
-                "uniqueId": 8808456351,
+                "uniqueId": 1564218171,
                 "wwVersion": 3,
                 "content": {
                     "type": "ww-color",
@@ -1214,12 +1214,12 @@
                 "anim": {}
             },
             "banner": {
-                "uniqueId": 1429196157,
+                "uniqueId": 12720003423,
                 "wwVersion": 3,
                 "content": {
                     "type": "ww-image",
                     "data": {
-                        "url": "https://wewebapp.s3.eu-west-3.amazonaws.com/designs/7/sections/nNt67i28FXj5nqnsaIxZeMToT8mCxfzV.jpg",
+                        "url": "https://wewebapp.s3.eu-west-3.amazonaws.com/designs/7/sections/JcOgNd0XThGZNOpudphOJdAdummfWnQ1.png",
                         "alt": "",
                         "position": {
                             "x": 0,
@@ -1231,7 +1231,7 @@
                             "width": "100%",
                             "height": "100%"
                         },
-                        "zoom": 1.3940594059405942,
+                        "zoom": 1.051916545366327,
                         "style": {
                             "borderRadius": 0,
                             "borderWidth": 0,
@@ -1269,7 +1269,7 @@
                             50,
                             50
                         ],
-                        "crop": "72px100p@14px0p"
+                        "crop": "95px100p@2px0p"
                     }
                 },
                 "link": {
@@ -1299,13 +1299,13 @@
             },
             "contents": [
                 {
-                    "uniqueId": 8276169664,
+                    "uniqueId": 581076654,
                     "wwVersion": 3,
                     "content": {
                         "type": "ww-text",
                         "data": {
                             "text": {
-                                "fr": "<font face=\"Open Sans, sans-serif\"><b>Aude @Itelios</b></font>"
+                                "fr": "<font face=\"Open Sans, sans-serif\"><b>Inventore veritatis</b></font>"
                             },
                             "tag": "div",
                             "align": "",
@@ -1342,13 +1342,13 @@
                     "anim": {}
                 },
                 {
-                    "uniqueId": 1060809550,
+                    "uniqueId": 1973126188,
                     "wwVersion": 3,
                     "content": {
                         "type": "ww-text",
                         "data": {
                             "text": {
-                                "fr": "<font face=\"Open Sans, sans-serif\" color=\"#4a4a4a\">175 collaborateurs Paris</font>"
+                                "fr": "<font face=\"Open Sans, sans-serif\" color=\"#4a4a4a\">Inventore veritatis et quasi </font>"
                             },
                             "tag": "div",
                             "align": "",
@@ -1385,13 +1385,13 @@
                     "anim": {}
                 },
                 {
-                    "uniqueId": 10089709472,
+                    "uniqueId": 15553044856,
                     "wwVersion": 3,
                     "content": {
                         "type": "ww-text",
                         "data": {
                             "text": {
-                                "fr": "<font face=\"Open Sans, sans-serif\" color=\"#4a4a4a\">Conseil en systèmes et logiciels informatiques</font>"
+                                "fr": "<font face=\"Open Sans, sans-serif\" color=\"#4a4a4a\"> Veritatis et quasi architecto beatae vitae dicta sunt explicabo</font>"
                             },
                             "tag": "div",
                             "align": "",
@@ -1428,13 +1428,13 @@
                     "anim": {}
                 },
                 {
-                    "uniqueId": 4325364454,
+                    "uniqueId": 12161895469,
                     "wwVersion": 3,
                     "content": {
                         "type": "ww-text",
                         "data": {
                             "text": {
-                                "fr": "<font face=\"Open Sans, sans-serif\"><b><span style=\"font-size:0.6rem\">&lt;&lt;&nbsp;</span></b>Préparez vos actions grâce à des activités automatisées et pré-créées (random lunch, sport, jeux...). Ouvrez l'esprit de vos collaborateurs grâce à notre programme.&nbsp;<span style=\"font-size:0.6rem\"><b>&gt;&gt;</b></span></font>"
+                                "fr": "<font face=\"Open Sans, sans-serif\">Totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo&nbsp;</font><br>"
                             },
                             "tag": "div",
                             "align": "",
@@ -1484,7 +1484,7 @@
                     "content": {
                         "data": {
                             "text": {
-                                "uniqueId": 11937028371,
+                                "uniqueId": 6508467993,
                                 "new": false,
                                 "anim": {},
                                 "data": {},
@@ -1502,7 +1502,7 @@
                                         "size": "",
                                         "text": {
                                             "en": "<font face=\"Open Sans, sans-serif\" color=\"#9013fe\"><b>Lire Le cas client</b></font>",
-                                            "fr": "<font face=\"Open Sans, sans-serif\" color=\"#9013fe\"><b>Lire le cas client</b></font>"
+                                            "fr": "<font face=\"Open Sans, sans-serif\" color=\"#00a3c7\"><b>Lire le cas client</b></font>"
                                         },
                                         "align": "",
                                         "color": "",
@@ -1520,7 +1520,7 @@
                                 "gradient": {},
                                 "boxShadow": {
                                     "b": "5",
-                                    "c": "#9013FE",
+                                    "c": "#90CAF9",
                                     "s": "0",
                                     "x": 0,
                                     "y": 0
@@ -1545,13 +1545,13 @@
                             "bottom": 30
                         }
                     },
-                    "uniqueId": 5210486964,
+                    "uniqueId": 1073955466,
                     "wwVersion": 3
                 }
             ],
             "teamRow": [
                 {
-                    "uniqueId": 5964699023,
+                    "uniqueId": 9925476049,
                     "wwVersion": 3,
                     "content": {
                         "type": "ww-image",
@@ -1636,7 +1636,7 @@
                     "anim": {}
                 },
                 {
-                    "uniqueId": 9545106926,
+                    "uniqueId": 3811574577,
                     "wwVersion": 3,
                     "content": {
                         "type": "ww-image",
@@ -1726,13 +1726,13 @@
     "thumbnailsPerLine": 4,
     "topWwObjs": [
         {
-            "uniqueId": 15435194986,
+            "uniqueId": 9333769729,
             "wwVersion": 3,
             "content": {
                 "type": "ww-text",
                 "data": {
                     "text": {
-                        "fr": "<span style=\"font-size:2rem\"><div style=\"text-align: center;\"><span style=\"font-family: &quot;Open Sans&quot;, sans-serif; text-align: initial;\">Pourquoi nos clients aiment OuiSpoon</span></div></span>"
+                        "fr": "<span style=\"font-size:2rem\"><div style=\"text-align: center;\"><span style=\"text-align: initial;\"><font face=\"Open Sans, sans-serif\">Totam rem aperiam eaque ipsa</font></span></div></span>"
                     },
                     "tag": "div",
                     "align": "",
@@ -1784,7 +1784,7 @@
             "content": {
                 "data": {
                     "text": {
-                        "uniqueId": 14882447464,
+                        "uniqueId": 8749652984,
                         "new": false,
                         "anim": {},
                         "data": {},
@@ -1802,7 +1802,7 @@
                                 "size": "",
                                 "text": {
                                     "en": "Contact Us",
-                                    "fr": "<font color=\"#ffffff\" face=\"Open Sans, sans-serif\"><b>Lire Les témoignages</b></font>"
+                                    "fr": "<font color=\"#ffffff\" face=\"Open Sans, sans-serif\"><b>Totam rem aperiam</b></font>"
                                 },
                                 "align": "",
                                 "color": "",
@@ -1825,11 +1825,11 @@
                             "x": 0,
                             "y": 0
                         },
-                        "borderColor": "#9013FE",
+                        "borderColor": "#1E88E5",
                         "borderStyle": "none",
-                        "borderWidth": 0,
+                        "borderWidth": 1,
                         "borderRadius": 5,
-                        "backgroundColor": "#9013FE"
+                        "backgroundColor": "#1E88E5"
                     },
                     "fullWidth": false
                 },
@@ -1844,7 +1844,7 @@
                     "bottom": 35
                 }
             },
-            "uniqueId": 1143354411,
+            "uniqueId": 14523359224,
             "wwVersion": 3
         }
     ]

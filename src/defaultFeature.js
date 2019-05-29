@@ -2,7 +2,7 @@ export function getNewFeature() {
     try {
         const newFeature = {
             "background": {
-                "uniqueId": 12661074949,
+                "uniqueId": 12414987911,
                 "wwVersion": 3,
                 "content": {
                     "type": "ww-color",
@@ -50,12 +50,12 @@ export function getNewFeature() {
                 "anim": {}
             },
             "banner": {
-                "uniqueId": 12193544998,
+                "uniqueId": 14542664481,
                 "wwVersion": 3,
                 "content": {
                     "type": "ww-image",
                     "data": {
-                        "url": "https://wewebapp.s3.eu-west-3.amazonaws.com/designs/7/sections/nNt67i28FXj5nqnsaIxZeMToT8mCxfzV.jpg",
+                        "url": "https://wewebapp.s3.eu-west-3.amazonaws.com/designs/7/sections/JcOgNd0XThGZNOpudphOJdAdummfWnQ1.png",
                         "alt": "",
                         "position": {
                             "x": 0,
@@ -67,7 +67,7 @@ export function getNewFeature() {
                             "width": "100%",
                             "height": "100%"
                         },
-                        "zoom": 1.3940594059405942,
+                        "zoom": 1.051916545366327,
                         "style": {
                             "borderRadius": 0,
                             "borderWidth": 0,
@@ -105,7 +105,7 @@ export function getNewFeature() {
                             50,
                             50
                         ],
-                        "crop": "72px100p@14px0p"
+                        "crop": "95px100p@2px0p"
                     }
                 },
                 "link": {
@@ -135,13 +135,13 @@ export function getNewFeature() {
             },
             "contents": [
                 {
-                    "uniqueId": 4749010445,
+                    "uniqueId": 1366604594,
                     "wwVersion": 3,
                     "content": {
                         "type": "ww-text",
                         "data": {
                             "text": {
-                                "fr": "<font face=\"Open Sans, sans-serif\"><b>Aude @Itelios</b></font>"
+                                "fr": "<font face=\"Open Sans, sans-serif\"><b>Inventore veritatis</b></font>"
                             },
                             "tag": "div",
                             "align": "",
@@ -178,13 +178,13 @@ export function getNewFeature() {
                     "anim": {}
                 },
                 {
-                    "uniqueId": 1983314519,
+                    "uniqueId": 10741570462,
                     "wwVersion": 3,
                     "content": {
                         "type": "ww-text",
                         "data": {
                             "text": {
-                                "fr": "<font face=\"Open Sans, sans-serif\" color=\"#4a4a4a\">175 collaborateurs Paris</font>"
+                                "fr": "<font face=\"Open Sans, sans-serif\" color=\"#4a4a4a\">Inventore veritatis et quasi </font>"
                             },
                             "tag": "div",
                             "align": "",
@@ -221,13 +221,13 @@ export function getNewFeature() {
                     "anim": {}
                 },
                 {
-                    "uniqueId": 4933781839,
+                    "uniqueId": 14639073201,
                     "wwVersion": 3,
                     "content": {
                         "type": "ww-text",
                         "data": {
                             "text": {
-                                "fr": "<font face=\"Open Sans, sans-serif\" color=\"#4a4a4a\">Conseil en systèmes et logiciels informatiques</font>"
+                                "fr": "<font face=\"Open Sans, sans-serif\" color=\"#4a4a4a\"> Veritatis et quasi architecto beatae vitae dicta sunt explicabo</font>"
                             },
                             "tag": "div",
                             "align": "",
@@ -264,13 +264,13 @@ export function getNewFeature() {
                     "anim": {}
                 },
                 {
-                    "uniqueId": 4609644600,
+                    "uniqueId": 3651329666,
                     "wwVersion": 3,
                     "content": {
                         "type": "ww-text",
                         "data": {
                             "text": {
-                                "fr": "<font face=\"Open Sans, sans-serif\"><b><span style=\"font-size:0.6rem\">&lt;&lt;&nbsp;</span></b>Préparez vos actions grâce à des activités automatisées et pré-créées (random lunch, sport, jeux...). Ouvrez l'esprit de vos collaborateurs grâce à notre programme.&nbsp;<span style=\"font-size:0.6rem\"><b>&gt;&gt;</b></span></font>"
+                                "fr": "<font face=\"Open Sans, sans-serif\">Totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo&nbsp;</font><br>"
                             },
                             "tag": "div",
                             "align": "",
@@ -320,7 +320,7 @@ export function getNewFeature() {
                     "content": {
                         "data": {
                             "text": {
-                                "uniqueId": 1404594620,
+                                "uniqueId": 4214870736,
                                 "new": false,
                                 "anim": {},
                                 "data": {},
@@ -338,7 +338,7 @@ export function getNewFeature() {
                                         "size": "",
                                         "text": {
                                             "en": "<font face=\"Open Sans, sans-serif\" color=\"#9013fe\"><b>Lire Le cas client</b></font>",
-                                            "fr": "<font face=\"Open Sans, sans-serif\" color=\"#9013fe\"><b>Lire le cas client</b></font>"
+                                            "fr": "<font face=\"Open Sans, sans-serif\" color=\"#00a3c7\"><b>Lire le cas client</b></font>"
                                         },
                                         "align": "",
                                         "color": "",
@@ -356,7 +356,7 @@ export function getNewFeature() {
                                 "gradient": {},
                                 "boxShadow": {
                                     "b": "5",
-                                    "c": "#9013FE",
+                                    "c": "#90CAF9",
                                     "s": "0",
                                     "x": 0,
                                     "y": 0
@@ -381,13 +381,13 @@ export function getNewFeature() {
                             "bottom": 30
                         }
                     },
-                    "uniqueId": 10979752089,
+                    "uniqueId": 257876355,
                     "wwVersion": 3
                 }
             ],
             "teamRow": [
                 {
-                    "uniqueId": 14482836194,
+                    "uniqueId": 3444782773,
                     "wwVersion": 3,
                     "content": {
                         "type": "ww-image",
@@ -472,7 +472,7 @@ export function getNewFeature() {
                     "anim": {}
                 },
                 {
-                    "uniqueId": 2218943451,
+                    "uniqueId": 4688841863,
                     "wwVersion": 3,
                     "content": {
                         "type": "ww-image",
