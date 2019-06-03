@@ -64,7 +64,14 @@
             </div>
         </div>
 
-        <v-touch ref="swiper" :enabled="!editMode" @swipeleft="nextSlide()" @swiperight="prevSlide()" :swipe-options="{ threshold: 10, velocity: 0.2 }" class="container mobile-wrapper">
+        <v-touch
+            ref="swiper"
+            :enabled="!editMode"
+            @swipeleft="nextSlide()"
+            @swiperight="prevSlide()"
+            :swipe-options="{ direction: 'horizontal', threshold: 10, velocity: 0.2 }"
+            class="container mobile-wrapper"
+        >
             <div class="container-center" :style="[mobileStyle, mobileTransition]">
                 <div class="thumbnail-container" v-for="feature in section.data.features" :key="feature.uniqueId" :style="cardWidth">
                     <!-- wwManager:start -->
@@ -382,8 +389,6 @@ export default {
 
         async openOptions() {
             try {
-
-
                 wwLib.wwPopups.addStory('WWSLIDER_CUSTOM', {
                     title: {
                         en: 'Fill in code',
