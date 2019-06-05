@@ -524,8 +524,8 @@ export default {
             margin: 30px 0 30px 15px;
             background-color: white;
             min-height: 50px;
-            box-shadow: 0 10px 40px 0 rgba(113, 124, 137, 0.2);
-            border-radius: 7px;
+            border: 1px solid #e0e0e0;
+            border-radius: 10px;
             overflow: hidden;
             transition: transform 0.4s ease-out, box-shadow 0.4s ease-out;
             .forehead-banner {
