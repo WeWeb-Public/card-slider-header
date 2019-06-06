@@ -6,7 +6,7 @@
         "type": "git",
         "url": "https://github.com/WeWeb-Public/card-slider-header.git"
     },
-    "version": "0.0.5",
+    "version": "0.0.6",
     "private": true,
     "scripts": {
         "build": "weweb-build",
