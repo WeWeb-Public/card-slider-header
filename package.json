@@ -1,30 +1,28 @@
 {
-    "name": "card_slider_header",
-    "type": "section",
-    "wewebPublic": true,
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/WeWeb-Public/card-slider-header.git"
-    },
-    "version": "0.0.7",
-    "private": true,
-    "scripts": {
-        "build": "weweb-build",
-        "serve": "weweb-serve",
-        "upload": "weweb-upload"
-    },
-    "dependencies": {
-        "vue": "^2.5.16",
-        "vue-touch": "^2.0.0-beta.4"
-    },
-    "devDependencies": {
-        "babel-preset-es2015-node6": "^0.4.0",
-        "babel-preset-stage-2": "^6.24.1",
-        "weweb-client": "^1.0.37"
-    },
-    "browserslist": [
-        "> 1%",
-        "last 2 versions",
-        "not ie <= 8"
-    ]
+  "name": "card_slider_header",
+  "type": "section",
+  "wewebPublic": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/WeWeb-Public/card-slider-header.git"
+  },
+  "version": "0.0.8",
+  "private": true,
+  "scripts": {
+    "build": "weweb-build",
+    "serve": "weweb-serve",
+    "upload": "weweb-upload"
+  },
+  "dependencies": {
+    "vue": "^2.6.10",
+    "vue-touch": "^2.0.0-beta.4"
+  },
+  "devDependencies": {
+    "weweb-client": "^1.0.47"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ]
 }

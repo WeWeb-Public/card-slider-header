@@ -11,14 +11,7 @@
         <wwObject class="background" :ww-object="section.data.bg" ww-category="background"></wwObject>
         <!--TOP WWOBJS-->
         <div class="top-ww-objs">
-            <wwLayoutColumn
-                tag="div"
-                ww-default="ww-image"
-                :ww-list="section.data.topWwObjs"
-                class="top-ww-obj"
-                @ww-add="add(section.data.topWwObjs, $event)"
-                @ww-remove="remove(section.data.topWwObjs, $event)"
-            >
+            <wwLayoutColumn tag="div" ww-default="ww-image" :ww-list="section.data.topWwObjs" class="top-ww-obj" @ww-add="add(section.data.topWwObjs, $event)" @ww-remove="remove(section.data.topWwObjs, $event)">
                 <wwObject v-for="topWwObj in section.data.topWwObjs" :key="topWwObj.uniqueId" :ww-object="topWwObj"></wwObject>
             </wwLayoutColumn>
         </div>
@@ -27,14 +20,7 @@
             <div class="container-center">
                 <div class="thumbnail-container" v-for="(feature, index) in section.data.features" :key="feature.uniqueId" :style="columnWidth">
                     <!-- wwManager:start -->
-                    <wwContextMenu
-                        tag="div"
-                        class="contextmenu contextmenu-center"
-                        v-if="editMode"
-                        @ww-add-before="addFeature(index, 'before')"
-                        @ww-add-after="addFeature(index, 'after')"
-                        @ww-remove="removeFeature(index)"
-                    >
+                    <wwContextMenu tag="div" class="contextmenu contextmenu-center" v-if="editMode" @ww-add-before="addFeature(index, 'before')" @ww-add-after="addFeature(index, 'after')" @ww-remove="removeFeature(index)">
                         <div class="wwi wwi-config"></div>
                     </wwContextMenu>
                     <!-- wwManager:end -->
@@ -45,16 +31,7 @@
                     </div>
                     <!-- team row -->
                     <div class="team-pic-container" :ww-list="feature.teamRow">
-                        <wwObject
-                            tag="div"
-                            class="team-pic"
-                            v-for="(teamPic, index) in feature.teamRow"
-                            :key="index"
-                            :ww-object="teamPic"
-                            @ww-add-before="addElement(feature.teamRow, index, 'before')"
-                            @ww-add-after="addElement(feature.teamRow, index, 'after')"
-                            @ww-remove="removeElement(feature.teamRow, index)"
-                        ></wwObject>
+                        <wwObject tag="div" class="team-pic" v-for="(teamPic, index) in feature.teamRow" :key="index" :ww-object="teamPic" @ww-add-before="addElement(feature.teamRow, index, 'before')" @ww-add-after="addElement(feature.teamRow, index, 'after')" @ww-remove="removeElement(feature.teamRow, index)"></wwObject>
                     </div>
 
                     <wwLayoutColumn tag="div" ww-default="ww-image" :ww-list="feature.contents" class="content" @ww-add="add(feature.contents, $event)" @ww-remove="remove(feature.contents, $event)">
@@ -64,25 +41,11 @@
             </div>
         </div>
 
-        <v-touch
-            ref="swiper"
-            :enabled="!editMode"
-            @swipeleft="nextSlide()"
-            @swiperight="prevSlide()"
-            :swipe-options="{ direction: 'horizontal', threshold: 10, velocity: 0.2 }"
-            class="container mobile-wrapper"
-        >
+        <v-touch ref="swiper" :enabled="!editMode" @swipeleft="nextSlide()" @swiperight="prevSlide()" :swipe-options="{ direction: 'horizontal', threshold: 10, velocity: 0.2 }" class="container mobile-wrapper">
             <div class="container-center" :style="[mobileStyle, mobileTransition]">
                 <div class="thumbnail-container" v-for="feature in section.data.features" :key="feature.uniqueId" :style="cardWidth">
                     <!-- wwManager:start -->
-                    <wwContextMenu
-                        tag="div"
-                        class="contextmenu contextmenu-center"
-                        v-if="editMode"
-                        @ww-add-before="addFeature(index, 'before')"
-                        @ww-add-after="addFeature(index, 'after')"
-                        @ww-remove="removeFeature(index)"
-                    >
+                    <wwContextMenu tag="div" class="contextmenu contextmenu-center" v-if="editMode" @ww-add-before="addFeature(index, 'before')" @ww-add-after="addFeature(index, 'after')" @ww-remove="removeFeature(index)">
                         <div class="wwi wwi-config"></div>
                     </wwContextMenu>
                     <!-- wwManager:end -->
@@ -93,16 +56,7 @@
                     </div>
                     <!-- team row -->
                     <div class="team-pic-container" :ww-list="feature.teamRow">
-                        <wwObject
-                            tag="div"
-                            class="team-pic"
-                            v-for="(teamPic, index) in feature.teamRow"
-                            :key="index"
-                            :ww-object="teamPic"
-                            @ww-add-before="addElement(feature.teamRow, index, 'before')"
-                            @ww-add-after="addElement(feature.teamRow, index, 'after')"
-                            @ww-remove="removeElement(feature.teamRow, index)"
-                        ></wwObject>
+                        <wwObject tag="div" class="team-pic" v-for="(teamPic, index) in feature.teamRow" :key="index" :ww-object="teamPic" @ww-add-before="addElement(feature.teamRow, index, 'before')" @ww-add-after="addElement(feature.teamRow, index, 'after')" @ww-remove="removeElement(feature.teamRow, index)"></wwObject>
                     </div>
 
                     <wwLayoutColumn tag="div" ww-default="ww-image" :ww-list="feature.contents" class="content" @ww-add="add(feature.contents, $event)" @ww-remove="remove(feature.contents, $event)">
@@ -111,12 +65,7 @@
                 </div>
             </div>
             <div class="content-dots-wrapper">
-                <li
-                    v-for="(dot, index) in section.data.features"
-                    class="content-dot"
-                    :style="{'background': ((sliderPosition == index) ? section.data.dotColor : ''), 'border-color': section.data.dotColor}"
-                    :key="dot.uniqueId"
-                >
+                <li v-for="(dot, index) in section.data.features" class="content-dot" :style="{'background': ((sliderPosition == index) ? section.data.dotColor : ''), 'border-color': section.data.dotColor}" :key="dot.uniqueId">
                     <div class="dot" @click="switchToIndex(sliderPosition, index)"></div>
                 </li>
             </div>
@@ -124,14 +73,7 @@
 
         <!--BOTTOM WWOBJS-->
         <div class="bottom-ww-objs">
-            <wwLayoutColumn
-                tag="div"
-                ww-default="ww-image"
-                :ww-list="section.data.bottomWwObjs"
-                class="top-ww-obj"
-                @ww-add="add(section.data.bottomWwObjs, $event)"
-                @ww-remove="remove(section.data.bottomWwObjs, $event)"
-            >
+            <wwLayoutColumn tag="div" ww-default="ww-image" :ww-list="section.data.bottomWwObjs" class="top-ww-obj" @ww-add="add(section.data.bottomWwObjs, $event)" @ww-remove="remove(section.data.bottomWwObjs, $event)">
                 <wwObject v-for="bottomWwObj in section.data.bottomWwObjs" :key="bottomWwObj.uniqueId" :ww-object="bottomWwObj"></wwObject>
             </wwLayoutColumn>
         </div>
@@ -661,6 +603,7 @@ export default {
 .mobile-wrapper {
     display: block;
     position: relative;
+    overflow-x: hidden;
     @media (min-width: 1024px) {
         display: none;
     }
