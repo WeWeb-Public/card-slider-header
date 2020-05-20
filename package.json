@@ -6,7 +6,7 @@
     "type": "git",
     "url": "https://github.com/WeWeb-Public/card-slider-header.git"
   },
-  "version": "0.0.8",
+  "version": "0.0.9",
   "private": true,
   "scripts": {
     "build": "weweb-build",
@@ -18,7 +18,7 @@
     "vue-touch": "^2.0.0-beta.4"
   },
   "devDependencies": {
-    "weweb-client": "^1.1.3"
+    "weweb-client": "latest"
   },
   "browserslist": [
     "> 1%",
